@@ -1,0 +1,64 @@
+*, *::after, &::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --snitap-sun: #ffcd1e;
+  --snitap-sky-mid: #06b6d4;
+  --snitap-sky-light: #67e8f9;
+  --snitap-joy-mid: #db2777;
+  --snitap-joy-light: #f472b6;
+  --snitap-leaf-mid: #16a34a;
+
+  --black: #000000;
+  --white: #FAFAFA;
+
+  --ff-montserrat: "Montserrat", sans-serif;
+  --ff-syne: "Syne", sans-serif;
+
+  --font-medium: 500;
+  --font-bold: 700;
+
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2.5rem;
+  --text-4xl: 4rem;
+
+  --leading-1: 1.2;
+  --leading-2: 1.25; 
+  --leading-3: 1.5;
+  
+
+  --px-lg: 1.5rem;
+  --py-base: 1rem;
+  --py-lg: 1.5rem;
+  --py-xl: 3rem;
+
+  --w-8: 2rem;
+  --h-8: 2rem;
+}
+
+html, button {
+    font: var(--font-medium) var(--text-base)/var(--leading-3) var(--ff-montserrat);
+}
+
+h1{
+    font: var(--font-bold) var(--text-4xl)/var(--leading-2) var(--ff-syne);
+}
+
+h2{
+    font: var(--font-bold) var(--text-2xl)/var(--leading-1) var(--ff-syne);
+}
+
+span{ 
+    font: var(--font-medium) var(--text-sm)/var(--leading-3) var(--ff-montserrat);
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}

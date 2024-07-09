@@ -1,0 +1,50 @@
+
+.container {
+  max-width: 80em;  
+  margin-inline: auto;
+}
+
+.py-base {
+  padding-block: var(--py-base);
+}
+
+.px-lg {
+  padding-inline: var(--px-lg);
+}
+
+
+.flex{
+    display: flex;
+}
+
+.desktop{
+    display: none;
+}
+
+.mobile{
+    display: none;
+}
+
+.grid{
+    display: grid;
+}
+
+.gap-1{
+    gap: 1rem;
+}
+
+.gap-1\.5{
+    gap:1.5rem;
+}
+
+.items-center{
+ align-items: center;   
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
