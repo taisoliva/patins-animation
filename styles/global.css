@@ -54,10 +54,6 @@ h2{
     font: var(--font-bold) var(--text-2xl)/var(--leading-1) var(--ff-syne);
 }
 
-span{ 
-    font: var(--font-medium) var(--text-sm)/var(--leading-3) var(--ff-montserrat);
-}
-
 a{
     color: inherit;
     text-decoration: none;
