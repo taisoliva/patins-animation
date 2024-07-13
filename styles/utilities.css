@@ -17,6 +17,11 @@
     display: flex;
 }
 
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
 .desktop{
     display: none;
 }
@@ -27,6 +32,10 @@
 
 .grid{
     display: grid;
+}
+
+.grid-rows{
+    grid-template-rows: 2;
 }
 
 .gap-1{
