@@ -44,6 +44,7 @@
 
 html, button {
     font: var(--font-medium) var(--text-base)/var(--leading-3) var(--ff-montserrat);
+    scroll-behavior: smooth;
 }
 
 h1{
